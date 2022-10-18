@@ -11,7 +11,12 @@ This repository offers touchscreen user-interface templates for interactive kios
 * USB Keyboard Cable
 
 ### Chromebook 
-Lenovo Touchscreen Duet or 110e (potential local storage will depend on file size.)
+
+* Lenovo 3100 2-in-1 Touchscreen (7 qty)(1366 x 768)
+* Lenovo 110e (5 qty) (1366 x 768)
+* Lenovo Duet Touchscreen (15 qty)(USB-C only. Requires Dongle) (1920 x 1200)
+
+(potential local storage will depend on file size.)
 [Pitt Wireless Chromebook Configuration](https://www.technology.pitt.edu/help-desk/how-to-documents/pittnetwireless-configuring-acer-and-samsung-chromebooks) 
 
 ### Kiosk Chrome App
