@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <ul>
+    <a style="color:white; float:right; font-size:20px" href="homepage.html" class="bn3637 bn36"><u>Home Page</u></a>
+  <li style="float:left; font-size:20px"><p><b>The History of Pittsburgh</b></li>
+
+</ul>
+<center>
+<h2 style="color:gold; font-size:40px">TLDR and More Resources</h2>
+</center>
+
+<p style="color:white"> learn more about pittsburgh pre-colonization from the pennsylvania historical and museum commission.</p>
+
+<img src="prehistqr.jpg" alt="QR Code" style="width:200px;height:200px;">
+
+<hr>
+<center>
+  <p style="color:white; font-size:15px">The timeline of the history of Pittsburgh represents more than just a collection of events, but it creates the story for how the city has grown to what it is now. Being able to reflect on the complexities surrounding the convergence of the three rivers and the stories that happened here create a shared understanding of the past, and a commitment to studying and understanding how we got here at all. Focusing on the history of Indigenous Peoples not just in North America, but across the world, is crucial to formulating a true and cross-social timeline of shared events. Pittsburgh is named for a British statesman, Pennsylvania for a British writer and religious thinker, and North America for an Italian merchant and explorer. A commitment to avoiding the norm of Eurocentric history, science, and thinking is paramount to creating an equitable and accessible narrative of the past that accurately represents it and the people that have come from it. The city of Pittsburgh is just one small part of the story of the world, but means everything to the people that live in and around it. Giving the little details the care and time they deserve creates a shared idea of understanding the past, and a commitment to understanding eachother.
+  </p>
+  <hr>
+</center>
+
+
+<!-- Slideshow container -->
+
+  <!--Check this W3 for documentation. https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+
+  <!-- Next and previous buttons
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+-->
+
+<!-- The dots/circles
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+-->
+
+<script>
+
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 8000); // Change image every 8 seconds
+}
+
+</script>
+
+</body>
+</html>
